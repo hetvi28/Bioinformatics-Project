@@ -3,7 +3,7 @@
 SECONDS=0
 
 # change working directory
-#cd /Users/kr/Desktop/demo/RNASeq_pipeline/
+#cd /Users/hetvichudasama/Documents/RNA_SEQ_Project/
 
 
 
@@ -12,7 +12,7 @@ SECONDS=0
 
 
 # run trimmomatic to trim reads with poor quality
-#java -jar ~/Desktop/demo/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 4 data/demo.fastq data/demo_trimmed.fastq TRAILING:10 -phred33
+#java -jar ~/Users/hetvichudasama/Documents/RNA_SEQ_Project/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 4 /Users/hetvichudasama/Documents/RNA_SEQ_Project/data/demo.fastq data/demo_trimmed.fastq TRAILING:10 -phred33
 #echo "Trimmomatic finished running!"
 
 #fastqc data/demo_trimmed.fastq -o data/
